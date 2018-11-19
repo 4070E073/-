@@ -1,15 +1,44 @@
+# Part 3 JavaScript & jQuery
+
 # 第12章 JavaScript 基本語法
 ###
 
->*Hello JavaScript!
+>*
 ```
-<!doctype html> 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>第一個JavaScript程式</title>	
-  </head>	
-  <body>
-    <h1 onclick="javascript:alert('Hello JavaScript!')">歡迎光臨JavaScript的世界！</h1>
-  </body>
-</html>
+
+...
+
+###
+
+>*
+...
+
+...
+
+###
+
+>*
+...
+
+...
+
+###
+
+>*
+...
+
+...
+
+###
+
+>*
+...
+
+...
+
+###
+
+>*
+...
+
+...
