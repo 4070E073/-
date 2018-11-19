@@ -374,6 +374,98 @@
 
 ###
 
+>*func4
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>函式範例</title>
+    <script language="javascript">
+      function Convert2F(DegreeC)	//宣告名稱為Convert2F、參數為DegreeC的函式
+      {
+        var DegreeF = DegreeC * 1.8 + 32;
+        alert("攝氏" + DegreeC + "度可以轉換為華氏" + DegreeF + "度");
+      }
+      var Temperature = prompt("請輸入攝氏溫度", "");
+      Convert2F(Temperature);		//呼叫函式時要將輸入的攝氏溫度當成參數傳入
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+
+...
+
+###
+
+>*array1
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+  </head>
+  <body>
+    <table border="1">
+    <script language="javascript">
+      var DrinkNames = new Array("卡布奇諾咖啡", "拿鐵咖啡", "血腥瑪莉", 
+        "長島冰茶", "愛爾蘭咖啡", "藍色夏威夷", "英式水果冰茶");
+      for(var i = 0; i < DrinkNames.length; i++)
+      {
+        document.write("<tr><td>飲料" + (i+1) + "</td>");
+        document.write("<td>" + DrinkNames[i] + "</td></tr>");
+      } 
+    </script>
+    </table>
+  </body>
+</html>
+
+...
+
+###
+
+>*array2
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+  </head>
+  <body>
+    <table border="1">
+    <script language="javascript">
+      var Students = new Array(5);
+      for(var i = 0; i < Students.length; i++)
+        Students[i] = new Array(2);				//宣告Array物件的元素為另一個Array物件
+      Students[0][0] = "小丸子";				//一一指派二維陣列的值
+      Students[1][0] = "花輪";
+      Students[2][0] = "小玉";
+      Students[3][0] = "美環";
+      Students[4][0] = "丸尾";
+      Students[0][1] = 80;
+      Students[1][1] = 95;
+      Students[2][1] = 92;
+      Students[3][1] = 88;
+      Students[4][1] = 85;
+      for(var i = 0; i < Students.length; i++)	//使用巢狀迴圈顯示二維陣列的值
+      {
+        document.write("<tr>");
+        for(var j = 0; j < Students[i].length; j++)
+          document.write("<td>" + Students[i][j] + "</td>");
+        document.write("</tr>");
+      }
+    </script>
+    </table>
+  </body>
+</html>
+
+...
+
+###
+
 >*
 ```
 
@@ -386,7 +478,40 @@
 
 ...
 
+###
 
+>*
+```
+
+...
+
+###
+
+>*
+```
+
+...
+
+###
+
+>*
+```
+
+...
+
+###
+
+>*
+```
+
+...
+
+###
+
+>*
+```
+
+...
 # 第13章 物件、DOM 與事件處理
 ###
 
