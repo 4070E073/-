@@ -1,7 +1,7 @@
-# Hello JavaScript!
+
 ###
 
->*
+>*Hello JavaScript!
 ```
 <!doctype html> 
 <html>
