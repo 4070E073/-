@@ -1,4 +1,4 @@
-
+# 第12章 JavaScript 基本語法
 ###
 
 >*Hello JavaScript!
