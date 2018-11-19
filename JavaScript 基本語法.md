@@ -41,7 +41,7 @@
 
 
 >*hello3
-...
+```
 <!doctype html> 
 <html>
   <head>
@@ -52,10 +52,10 @@
     <h1 onclick="javascript:alert('Hello JavaScript!')">歡迎光臨JavaScript的世界！</h1>
   </body>
 </html>
-...
+```
 
 >*hello4
-...
+```
 <!doctype html> 
 <html>
   <head>
@@ -66,12 +66,12 @@
   <body>
   </body>
 </html>
-...
+```
 
-###
+
 
 >*if1
-...
+```
 <!doctype html> 
 <html>
   <head>
@@ -86,12 +86,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*if2
-...
+```
 <!doctype html> 
 <html>
   <head>
@@ -109,12 +109,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*if3
-...
+```
 <!doctype html> 
 <html>
   <head>
@@ -138,12 +138,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*switch
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -178,12 +178,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*for
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -204,12 +204,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*while
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -238,12 +238,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*do
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -269,12 +269,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*forin
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -292,12 +292,13 @@
   </body>
 </html>
 
-...
+```
 
-###
+
+
 
 >*func1
-...
+```
 <!doctype html>
 <html>
   <head>
@@ -316,9 +317,9 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*func2
 ```
@@ -340,9 +341,7 @@
   </body>
 </html>
 
-...
-
-###
+```
 
 >*func3
 ```
@@ -365,9 +364,9 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*func4
 ```
@@ -390,9 +389,9 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*array1
 ```
@@ -417,12 +416,12 @@
   </body>
 </html>
 
-...
+```
 
-###
+
 
 >*array2
-
+```
 <!doctype html>
 <html>
   <head>
@@ -457,13 +456,7 @@
   </body>
 </html>
 
-...
-
->*
 ```
-
-...
-
 
 # 第13章 物件、DOM 與事件處理
 
@@ -482,7 +475,7 @@
   </body>
 </html>
 
-...
+```
 
 >*window
 ```
@@ -515,7 +508,7 @@
   </body>
 </html>
 
-...
+```
 
 >*new
 ```
@@ -530,7 +523,7 @@
   </body>
 </html>
 
-...
+```
 
 >*open2
 ```
@@ -554,7 +547,7 @@
   </body>
 </html>
 
-...
+```
 
 >*show
 ```
@@ -577,7 +570,7 @@
   </body>
 </html>
 
-...
+```
 
 >*event1
 ```
@@ -593,7 +586,7 @@
   </body>
 </html>
 
-...
+```
 
 >*event2
 ```
@@ -614,7 +607,7 @@
   </body>
 </html>
 
-...
+```
 
 >*event3
 ```
@@ -638,7 +631,7 @@
   </body>
 </html>
 
-...
+```
 
 >*event4
 ```
@@ -662,7 +655,7 @@
   </body>
 </html>
 
-...
+```
 
 >*event5
 ```
@@ -682,122 +675,30 @@
   </body>
 </html>
 
-...
-
->*
 ```
 
-...
-
->*
-```
-
-...
-
->*
-```
-
-...
-
->*
-```
-
-...
-
->*
-```
-
-...
-
->*
-```
-
-...
 
 
 # 第14章 jQuery
 
->*
-```
 
-...
-
-###
-
->*
-```
-
-...
 
 # Part 4 響應式網頁設計 & Bootstrap
 
 # 第15章 使用 Bootstrap 開發響應式網頁
-###
 
->*
-```
-
-...
-
-
-###
-
->*
-```
-
-...
 # 第16章 Bootstrap 元件
-###
 
->*
-```
-
-...
-
-###
-
->*
-```
-
-...
 
 # 第17章 jQuery 外掛
-###
 
->*
-```
-
-...
-
-###
-
->*
-```
-
-...
 
 # Part 5 行動網頁設計 & jQuery Mobile 
 
 # 第18章 使用 jQuery Mobile 開發行動網頁 
-###
 
->*
-```
-
-...
-
-###
-
->*
-```
-
-...
 
 # 第19章 jQuery Mobile UI 元件
-###
-
->*
-```
 
 
 
