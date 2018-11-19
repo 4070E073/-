@@ -650,8 +650,205 @@
 ```
 
 ## 第14章 jQuery
+>jQhello
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script> 
+      window.onload = function() { 
+        alert( "Hello, jQuery!" );
+      }; 
+    </script>
+  </head>	
+  <body>
+  </body>
+</html>
+```
+
+>jQ1
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>	
+  </head>	
+  <body>
+    <button id="btn">顯示訊息</button>
+	<p id="msg"></p>
+    <script> 
+      $("#btn").on("click", function() { 
+        $("#msg").text("Hello, jQuery!");
+      }); 
+    </script>  
+  </body>
+</html>
+
+```
+
+>jQ2
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>    
+  </head>	
+  <body>
+    <p>飛田新地</p> 
+    <script>
+      $("p").append("<b><i> Men's heaven</i></b>");
+    </script> 
+  </body>
+</html>
+```
 
 
+>jQ3
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>    
+  </head>	
+  <body>   
+    <script>
+	  var sum = 0; 
+      var arr = [1, 2, 3, 4, 5]; 
+      $.each(arr, function(index, value){
+        sum += value;
+      }); 
+      alert(sum);
+    </script> 
+  </body>
+</html>
+```
+
+
+>jQ4
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>    
+  </head>	
+  <body>
+    <ul>
+      <li><a href="a.html">Link 1</a></li>
+      <li><a href="b.html">Link 2</a></li>
+      <li><a href="c.html">Link 3</a></li>
+    </ul>  
+    <script>
+	  $("li").each(function(index, element){
+        alert($(this).text());
+      });      
+    </script> 
+  </body>
+</html>
+```
+
+
+>jQ5
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  </head>
+  <body> 
+    <h1>Hello, jQuery!</h1> 
+    <script>
+      $("h1").on("mouseenter", function(){
+		$(this).css({"color" : "red", "text-shadow" : "gray 3px 3px"});
+	  });
+	  $("h1").on("mouseleave", function(){
+		$(this).css({"color" : "black", "text-shadow" : "none"});
+	  });
+    </script> 
+  </body>
+</html>
+```
+
+
+>jQ6
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>	
+  </head>	
+  <body>
+    <input type="text">
+	<p></p>
+    <script> 
+      $("input").on("click", function() {        
+		$("p").text("單行文字方塊被按一下");
+      });
+    </script>  
+  </body>
+</html>
+```
+
+
+>jQHello2
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script> 
+      $(function() { 
+        alert( "Hello, jQuery!" );
+      }); 
+    </script>
+  </head>	
+  <body>
+  </body>
+</html>
+```
+
+>jQ9
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <style>
+      h1 {background:yellow}
+    </style>
+  </head>
+  <body>
+    <button id="hider">隱藏</button>
+    <button id="shower">顯示</button>
+    <h1>Hello, jQuery!</>
+ 
+    <script>
+      $("#hider").on("click", function() {
+        $("h1").hide(600);
+      });
+
+      $("#shower").on("click", function() {
+        $("h1").show(600);
+      });
+    </script> 
+  </body>
+</html>
+
+```
+
+>jQ12
+```
+
+```
 
 # Part 4 響應式網頁設計 & Bootstrap
 
