@@ -463,30 +463,263 @@
 
 ...
 
-###
-
 >*
 ```
 
 ...
+
 
 # 第13章 物件、DOM 與事件處理
-###
+
+>*status
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+    <script language="javascript">
+      window.status = "歡迎光臨~~~~";
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+
+...
+
+>*window
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+    <script language="javascript">
+      var MyWin = null;		//此變數將存放open() 所傳回的window物件，即新視窗
+      function OpenNewWindow()	//開啟新視窗
+      {
+        MyWin = window.open("new.html", "MyWin", "height=200, width=400");
+      } 
+      function CloseNewWindow()	//關閉新視窗
+      {
+        if(MyWin && MyWin.open && !MyWin.closed)
+          MyWin.close();
+      }
+      function CloseWindow()			//關閉本視窗
+      {
+        window.close();
+      }
+    </script>
+  </head>
+  <body>
+    <a href="javascript:window.OpenNewWindow();">開啟新視窗</a>
+    <a href="javascript:window.CloseNewWindow();">關閉新視窗</a>
+    <a href="javascript:window.CloseWindow();">關閉本視窗</a>
+  </body>
+</html>
+
+...
+
+>*new
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>新視窗</title>
+  </head>
+  <body>
+    這是高度為200像素、寬度為400像素的新視窗
+  </body>
+</html>
+
+...
+
+>*open2
+```
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+    <script language="javascript">
+      function openDocument()
+      {
+        var NewWin = window.open("", "NewWin");				//開啟新的瀏覽器
+        NewWin.document.open("text/html");					//在另一個瀏覽器開啟新文件
+        NewWin.document.write("這是新的HTML文件");			//在新文件中顯示此字串
+        NewWin.document.close();							//關閉新文件資料流
+      }
+	</script>  
+  </head>
+  <body>
+    <input type="button" value="開啟新文件" onclick="javascript:openDocument();">
+  </body>
+</html>
+
+...
+
+>*show
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+    <script language="javascript">
+	  function showMsg()
+	  {
+        var msg = document.getElementById("message");
+	    msg.innerHTML = "Hello World!";
+      }
+	</script>  
+  </head>
+  <body>
+    <input type="button" value="顯示訊息" onclick="javascript:showMsg();">
+	<p id="message"></p>
+  </body>
+</html>
+
+...
+
+>*event1
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+  </head>
+  <body>
+    <input type="button" id="b1" value="顯示訊息" 
+      onclick="javascript:window.alert('Hello World!');">
+  </body>
+</html>
+
+...
+
+>*event2
+```
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>
+	<script language="javascript">
+	  function showMsg()
+	  {
+	    window.alert('Hello World!');
+	  }
+	</script>
+  </head>
+  <body>
+    <input type="button" id="b1" value="顯示訊息" onclick="javascript:showMsg();">
+  </body>
+</html>
+
+...
+
+>*event3
+```
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>	
+  </head>
+  <body>
+    <input type="button" id="b1" value="顯示訊息">
+	<script language="javascript">
+	  var b1 = document.getElementById("b1");	//取得 <button> 元素
+	  b1.onclick = showMsg;					//設定事件處理程式
+	  
+	  function showMsg()
+	  {    
+	    window.alert('Hello World!');
+	  }
+	</script>
+  </body>
+</html>
+
+...
+
+>*event4
+```
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>	
+  </head>
+  <body>
+    <input type="button" id="b1" value="顯示訊息">
+	<script language="javascript">
+	  var b1 = document.getElementById("b1");	  
+	  b1.addEventListener("click", showMsg, false);
+	  
+      function showMsg()
+      {    
+        window.alert('Hello World!');
+      }
+	</script>
+  </body>
+</html>
+
+...
+
+>*event5
+```
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>範例</title>	
+  </head>
+  <body>
+    <input type="button" id="b1" value="顯示訊息">
+	<script language="javascript">
+      var b1 = document.getElementById("b1");
+      b1.addEventListener("click", function() {window.alert('Hello World!');}, false);
+      b1.addEventListener("click", function() {window.alert('歡迎光臨!');}, false);
+    </script>
+  </body>
+</html>
+
+...
 
 >*
 ```
 
 ...
 
-###
+>*
+```
+
+...
 
 >*
 ```
 
 ...
+
+>*
+```
+
+...
+
+>*
+```
+
+...
+
+>*
+```
+
+...
+
 
 # 第14章 jQuery
-###
 
 >*
 ```
