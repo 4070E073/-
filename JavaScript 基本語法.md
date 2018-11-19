@@ -21,7 +21,7 @@
 ```
 
 
->*hello2
+>hello2
 ```
 <!doctype html>  
 <html>
@@ -40,7 +40,7 @@
 ```
 
 
->*hello3
+>hello3
 ```
 <!doctype html> 
 <html>
@@ -54,7 +54,7 @@
 </html>
 ```
 
->*hello4
+>hello4
 ```
 <!doctype html> 
 <html>
@@ -68,9 +68,7 @@
 </html>
 ```
 
-
-
->*if1
+>if1
 ```
 <!doctype html> 
 <html>
@@ -89,8 +87,7 @@
 ```
 
 
-
->*if2
+>if2
 ```
 <!doctype html> 
 <html>
@@ -108,12 +105,9 @@
   <body>
   </body>
 </html>
-
 ```
 
-
-
->*if3
+>if3
 ```
 <!doctype html> 
 <html>
@@ -140,9 +134,7 @@
 
 ```
 
-
-
->*switch
+>switch
 ```
 <!doctype html>
 <html>
@@ -180,9 +172,7 @@
 
 ```
 
-
-
->*for
+>for
 ```
 <!doctype html>
 <html>
@@ -206,9 +196,7 @@
 
 ```
 
-
-
->*while
+>while
 ```
 <!doctype html>
 <html>
@@ -240,9 +228,7 @@
 
 ```
 
-
-
->*do
+>do
 ```
 <!doctype html>
 <html>
@@ -271,9 +257,7 @@
 
 ```
 
-
-
->*forin
+>forin
 ```
 <!doctype html>
 <html>
@@ -294,10 +278,7 @@
 
 ```
 
-
-
-
->*func1
+>func1
 ```
 <!doctype html>
 <html>
@@ -319,9 +300,7 @@
 
 ```
 
-
-
->*func2
+>func2
 ```
 <!doctype html>
 <html>
@@ -343,7 +322,7 @@
 
 ```
 
->*func3
+>func3
 ```
 <!doctype html>
 <html>
@@ -366,9 +345,7 @@
 
 ```
 
-
-
->*func4
+>func4
 ```
 <!doctype html>
 <html>
@@ -391,9 +368,7 @@
 
 ```
 
-
-
->*array1
+>array1
 ```
 <!doctype html>
 <html>
@@ -418,9 +393,7 @@
 
 ```
 
-
-
->*array2
+>array2
 ```
 <!doctype html>
 <html>
@@ -455,12 +428,11 @@
     </table>
   </body>
 </html>
-
 ```
 
 # 第13章 物件、DOM 與事件處理
 
->*status
+>status
 ```
 <!doctype html>
 <html>
@@ -477,7 +449,7 @@
 
 ```
 
->*window
+>window
 ```
 <!doctype html>
 <html>
@@ -510,7 +482,7 @@
 
 ```
 
->*new
+>new
 ```
 <!doctype html>
 <html>
@@ -525,7 +497,7 @@
 
 ```
 
->*open2
+>open2
 ```
 <!doctype html> 
 <html>
@@ -549,7 +521,7 @@
 
 ```
 
->*show
+>show
 ```
 <!doctype html>
 <html>
@@ -572,7 +544,7 @@
 
 ```
 
->*event1
+>event1
 ```
 <!doctype html>
 <html>
@@ -588,7 +560,7 @@
 
 ```
 
->*event2
+>event2
 ```
 <!doctype html> 
 <html>
@@ -609,7 +581,7 @@
 
 ```
 
->*event3
+>event3
 ```
 <!doctype html> 
 <html>
@@ -633,7 +605,7 @@
 
 ```
 
->*event4
+>event4
 ```
 <!doctype html> 
 <html>
@@ -657,7 +629,7 @@
 
 ```
 
->*event5
+>event5
 ```
 <!doctype html> 
 <html>
@@ -676,8 +648,6 @@
 </html>
 
 ```
-
-
 
 # 第14章 jQuery
 
