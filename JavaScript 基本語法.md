@@ -207,12 +207,12 @@
         var Number = prompt("請輸入1-10的數字", "");
   while(Number != 6)
   {
-    if (Number > 6)       									//太大了繼續做答
+    if (Number > 6)       			//太大了繼續做答
     {
       alert("太大了！請重新輸入！");
       Number = prompt("請輸入1-10的數字", "");
     }
-    else if (Number < 6)  										//太小了繼續做答
+    else if (Number < 6)  			//太小了繼續做答
     {
       alert("太小了！請重新輸入！");
       Number = prompt("請輸入1-10的數字", "");
