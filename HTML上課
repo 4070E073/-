@@ -2,8 +2,6 @@ https://github.com/HappyHackingHigh/MyFirstSecurity/blob/master/MyFirstWebSecuri
 
 
 
-
-
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +29,6 @@ https://github.com/HappyHackingHigh/MyFirstSecurity/blob/master/MyFirstWebSecuri
 <!-- HTML 圖像是通過標籤 <img> 來定義的. -->
 
 <p>第三個段落:插入圖片</p>
-
 
 <img src="/images/1918210.jpg" width="1000" height="621" />
 
@@ -73,3 +70,5 @@ Binary exploitation - AIS3</a> </strong> from <strong><a href="https://www.slide
 Angel Boy</a></strong> </div>
 
 </html>
+
+
